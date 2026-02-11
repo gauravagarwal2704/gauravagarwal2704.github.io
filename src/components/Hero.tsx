@@ -23,8 +23,8 @@ export function Hero() {
 
         <h1
           className="text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] text-zinc-900 dark:text-white tracking-tight leading-none mb-6 opacity-0 animate-fade-in-delayed"
-          style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-          // style={{ fontFamily: "'Outfit', sans-serif" }}
+          // style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+          style={{ fontFamily: "'Outfit', sans-serif" }}
         >
           Gaurav Agarwal
         </h1>

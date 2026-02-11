@@ -59,7 +59,7 @@ export function Navbar() {
           >
             {useTextLogo ? (
               <span className="text-5xl font-bold font-display tracking-tight">
-                GA<span className="text-indigo-600 dark:text-indigo-400">.</span>
+                GASS<span className="text-indigo-600 dark:text-indigo-400">.</span>
               </span>
             ) : (
               <div
@@ -77,13 +77,13 @@ export function Navbar() {
               />
             )}
           </button>
-          <button
+          {/* <button
             onClick={() => setUseTextLogo((v) => !v)}
             className="text-[10px] px-1.5 py-0.5 rounded border border-zinc-300 dark:border-zinc-700 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-300 transition-colors"
             title="Switch logo variant"
           >
             {useTextLogo ? 'SVG' : 'Text'}
-          </button>
+          </button> */}
         </div>
 
         <div className="hidden md:flex items-center gap-8">

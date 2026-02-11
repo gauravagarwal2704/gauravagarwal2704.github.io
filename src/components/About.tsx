@@ -78,7 +78,7 @@ export function About() {
               <div className="space-y-2.5">
                 {[
                   { lang: 'Hindi', level: 'Native' },
-                  { lang: 'Marwadi', level: 'Native' },
+                  // { lang: 'Marwadi', level: 'Native' },
                   { lang: 'English', level: 'Fluent' },
                   { lang: 'Marathi', level: 'Intermediate' },
                 ].map(({ lang, level }) => (
